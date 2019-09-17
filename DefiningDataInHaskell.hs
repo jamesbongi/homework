@@ -35,6 +35,8 @@ the next. This makes it mroe compatible and efficient with simpler expressions a
 6. Extend the parser for arithmetic expressions to support subtraction and division, based upon the following extensions to the grammar: expr ::= term (+ expr | − expr | )
 term ::= factor (∗ term | / term | )
 
+more grammar -
+
 factor ::= (expr) | nat
 nat ::= 0 | 1 | 2 | ...
 -}
