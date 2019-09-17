@@ -1,3 +1,6 @@
+module Chapter8 where
+
+import Parsing
 {- 
 1. The library file also defines a parser `int :: Parser Int` for an integer.
     Without looking at this definition, define `int`.  Hint: an integer is
